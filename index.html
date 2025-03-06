@@ -1,25 +1,19 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Slime Game</title>
+    <title>Play SlimeTopia!</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
-  <body style="background-image: url('Background.png'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover;">
-    <canvas id="unity-canvas" width=1920 height=1080 style="
-    width: 1536px;
-    height: 864px;
-    background: #231F20;
 
-    position: absolute;
-    top:0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin:auto;
+  <body id="background">
+    <h1 id="SlimeTopia">SlimeTopia</h1>
+    
+    <canvas id="unity-canvas" width=1920 height=1080></canvas>
 
-    box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
-    "></canvas>
     <script src="Build/12.1.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
@@ -34,5 +28,8 @@
         // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
+
+    <img id="discord-image" src="discord.png">
+    <a id="discord" href="https://discord.gg/VaWzq8z2E7" target="_blank">Discord</a>
   </body>
 </html>
