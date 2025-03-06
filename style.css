@@ -4,6 +4,8 @@
 }
 
 #unity-canvas{
+    width: 1536px;
+    height: 864px;
     width: 80%;
     height: 80%;
     background: #231F20;
