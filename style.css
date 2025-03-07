@@ -72,15 +72,15 @@ a{
     font-size: 20px;
     font-family: Arial;
     text-decoration: none;
+}
+
+#discord{
+    color:#7289da;
 
     position: absolute;
     bottom: 12px;
     right: 12px;
     margin:auto;
-}
-
-#discord{
-    color:#7289da;
 }
 
 #discord-image{
@@ -90,4 +90,22 @@ a{
 
     width: 24px;
     height: 24px;
+}
+
+#download{
+    color: white;
+
+    position: absolute;
+    bottom: 12px;
+    right: 122px;
+    margin:auto;
+}
+
+#download-image{
+    position: absolute;
+    bottom: 14px;
+    right: 215px;
+
+    width: 22px;
+    height: 22px;
 }
