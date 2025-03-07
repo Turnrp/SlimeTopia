@@ -6,7 +6,6 @@
 #unity-canvas{
     width: 1536px;
     height: 864px;
-    aspect-ratio: 16 / 9;
     background: #231F20;
 
     position: absolute;
