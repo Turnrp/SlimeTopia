@@ -12,6 +12,7 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: black; /* Black letterbox background */
+    overflow-y: auto;
 }
 
 #unity-canvas{
@@ -46,8 +47,9 @@ canvas {
 #background{
     background-image: url('slimetopia.png'); 
     background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-attachment:fixed; 
     background-size: cover;
+    background-position-y: center;
 }
 
 #SlimeTopia{
@@ -107,4 +109,36 @@ a{
 
     width: 22px;
     height: 22px;
+}
+
+#changes{
+    color: white;
+
+    position: absolute;
+    bottom: 12px;
+    left: 42px;
+    margin:auto;
+}
+
+#changes-image{
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+
+    width: 28px;
+    height: 28px;
+}
+
+#changelog{
+    width: 90%; 
+    height: 90%;
+    
+    color: white;
+    font-family: 'Booxel';
+    text-align: center;
+    font-size: 64px;
+    font-variant: small-caps;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-shadow: -3px 1px 5px rgb(0, 0, 0, 0.501960784);
 }
